@@ -2,13 +2,13 @@
 
 ## Endpoints
 
-- [POST] $HOST/api/signup (parametros: name, email, password) - Criar conta
-- [POST] $HOST/api/login (parametros: email, password) - Fazer Login
-- [GET] $HOST/api/tasks - Lista de todas tarefas
-- [POST] $HOST/api/tasks (parametros: name, description (opicional), finished (default false), color (default #fff)) - Criar tarefa
-- [GET] $HOST/api/tasks (parametros: id (id da tarefa)) Buscar tarefa a partir do ID
-- [PUT] $HOST/api/tasks (parametros: id (id da tarefa), name, description, finished, color) - Atualizar tarefa
-- [DELETE] $HOST/api/tasks (parametros: id (id da tarefa)) - Apagar tarefa
+- [POST] https://simple-tasks-api.herokuapp.com/api/signup (parametros: name, email, password) - Criar conta
+- [POST] https://simple-tasks-api.herokuapp.com/api/login (parametros: email, password) - Fazer Login
+- [GET] https://simple-tasks-api.herokuapp.com/api/tasks - Lista de todas tarefas
+- [POST] https://simple-tasks-api.herokuapp.com/api/tasks (parametros: name, description (opicional), finished (default false), color (default #fff)) - Criar tarefa
+- [GET] https://simple-tasks-api.herokuapp.com/api/tasks (parametros: id (id da tarefa)) Buscar tarefa a partir do ID
+- [PUT] https://simple-tasks-api.herokuapp.com/api/tasks (parametros: id (id da tarefa), name, description, finished, color) - Atualizar tarefa
+- [DELETE] https://simple-tasks-api.herokuapp.com/api/tasks (parametros: id (id da tarefa)) - Apagar tarefa
 
 ### Mesmos endpoints de tasks porém não precisam estar autenticado
 
