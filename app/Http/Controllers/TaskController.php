@@ -53,6 +53,9 @@ class TaskController extends Controller
     {
         $task = Task::findOrFail($id);
         $task->update($request->all());
+
+        $task = Task::find($id);
+
         return response()->json($task);
     }
 
